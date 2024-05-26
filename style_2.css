@@ -1,0 +1,67 @@
+body {
+  background: rgb(95,252,255);
+  background: linear-gradient(63deg, rgba(95,252,255,1) 0%, rgba(57,246,44,1) 100%);
+}
+h1
+{ 
+  text-align: center;
+  color: blue;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 600px;
+  margin-left: 600px;
+  background-color: yellow;
+}
+h2
+{
+  text-align: center;
+  color: blue;
+  border: 5 px solid black;
+  border-radius: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 40%;
+  margin-left: 40%;
+  background-color: yellow
+}
+button
+{ 
+  margin-left: 47%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: 900;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+button:hover {background-color: #ff6dc6}
+
+button:active {
+  background-color: #ff6dc6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#demo,#userData,#computercount,#usercount,#term,#winner
+{
+  text-align: center;
+  color: blue;
+  border: 5 px solid black;
+}
+#testdiv
+{
+ margin-top: 5%;
+ margin-left: 5%;
+ margin-right: 5%;
+ background-color:#96d241 ;
+ border: 3px solid green
+}
