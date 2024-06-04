@@ -10,27 +10,329 @@
                 <script src="index.js"></script>
 
                  <! body  tag which runs mo function which is an arrow input >
-                 <body id="bdy" onkeydown="mo()">
-	 
-                     <! decorative div and h1 >
-                   <div id="testdiv">
-                   <h1>Game Page </h1>
-                   
-                     <p > 
-                   <h2>Computer's Choice</h2>        <! heading>
-                   <h3 id="demo">--------------</h3>   <! Computer data >
-                   <h2>User's Choice</h2>                   <! heading >
+                 <body id="bdy">
+                  <div class="container">
+                    <div class="star">
+                         <span style="--i:11;"></span>
+                         <span style="--i:17;"></span>
+                         <span style="--i:21;"></span>
+                         <span style="--i:11;"></span>
+                         <span style="--i:114;"></span>
+                         <span style="--i:201;"></span>
+         
+         
+                         <span style="--i:201;"></span>
+                         <span style="--i:90;"></span>
+                         <span style="--i:190;"></span>
+                         <span style="--i:61;"></span>
+                         <span style="--i:95;"></span>
+                         <span style="--i:90;"></span>
+                         <span style="--i:20;"></span>
+                         <span style="--i:71;"></span>
 
-                   <! user choice using  > 
-                  <h3 id="userData">please press ArrowUp for stone ArrowLeft for paper and ArrowRight for                   scissors</h3>
-                  </p>
+                      
+                        <span style="--i:11;"></span>
+                        <span style="--i:1;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+                        <span style="--i:111;"></span>
+                        <span style="--i:18;"></span>
+                        <span style="--i:14;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:246;"></span>
+           
+           
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:66;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:91;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:211;"></span>
+           
+           
+                        <span style="--i:14;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:101;"></span>
+                        <span style="--i:246;"></span>
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+           
+           
+           
+                        <span style="--i:201;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:190;"></span>
+                        <span style="--i:61;"></span>
+                        <span style="--i:95;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:20;"></span>
+                        <span style="--i:71;"></span>
+                        <span style="--i:91;"></span>
+           
+           
+           
+                        <span style="--i:11;"></span>
+                        <span style="--i:1;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+                        <span style="--i:111;"></span>
+                        <span style="--i:18;"></span>
+                        <span style="--i:14;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:246;"></span>
+           
+           
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:124;"></span>
+                        <span style="--i:291;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:56;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:20;"></span>
+                        <span style="--i:211;"></span>
+           
+           
+                        <span style="--i:14;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:101;"></span>
+                        <span style="--i:246;"></span>
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+           
+           
+           
+                        <span style="--i:222;"></span>
+                        <span style="--i:95;"></span>
+                        <span style="--i:180;"></span>
+                        <span style="--i:71;"></span>
+                        <span style="--i:92;"></span>
+                        <span style="--i:5;"></span>
+                        <span style="--i:35;"></span>
+                        <span style="--i:82;"></span>
+                        <span style="--i:954;"></span>
                     
-                  <h4 id="winner" >--------------</h4>   <! winner from current match >
-                  <h4 id="term" >0</h4> <! final result after 5 matches >
-                   
-                   <h4 id="computercount" >0</h4>       <! computer point count  >
-                  <h4 id="usercount" >0</h4>                 <! user point count>
-                   <button id="btn" onclick="re()">Reset   </button> <! reset button >
+           
+                        <span style="--i:11;"></span>
+                        <span style="--i:1;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+                        <span style="--i:111;"></span>
+                        <span style="--i:18;"></span>
+                        <span style="--i:14;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:246;"></span>
+           
+           
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:66;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:91;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:211;"></span>
+           
+           
+                        <span style="--i:14;"></span>
+                        <span style="--i:29;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:101;"></span>
+                        <span style="--i:246;"></span>
+                        <span style="--i:21;"></span>
+                        <span style="--i:15;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+           
+           
+           
+                        <span style="--i:201;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:190;"></span>
+                        <span style="--i:61;"></span>
+                        <span style="--i:95;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:20;"></span>
+                        <span style="--i:71;"></span>
+                        <span style="--i:91;"></span>
+           
+           
+           
+                        <span style="--i:11;"></span>
+                        <span style="--i:1;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+                        <span style="--i:111;"></span>
+                        <span style="--i:18;"></span>
+                        <span style="--i:14;"></span>
+                        <span style="--i:19;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:246;"></span>
+           
+           
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:124;"></span>
+                        <span style="--i:291;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:56;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:20;"></span>
+                        <span style="--i:211;"></span>
+           
+           
+                        <span style="--i:14;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:99;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:101;"></span>
+                        <span style="--i:246;"></span>
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+           
+           
+           
+                        <span style="--i:222;"></span>
+                        <span style="--i:95;"></span>
+                        <span style="--i:180;"></span>
+                        <span style="--i:71;"></span>
+                        <span style="--i:92;"></span>
+                        <span style="--i:5;"></span>
+                        <span style="--i:35;"></span>
+                        <span style="--i:82;"></span>
+                        <span style="--i:954;"></span>
+           
+                        <span style="--i:180;"></span>
+                        <span style="--i:71;"></span>
+                        <span style="--i:92;"></span>
+                        <span style="--i:5;"></span>
+                        <span style="--i:35;"></span>
+           
+                        <span style="--i:90;"></span>
+                        <span style="--i:56;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:17;"></span>
+                        <span style="--i:21;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+           
+           
+                        <span style="--i:201;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:190;"></span>
+                        <span style="--i:61;"></span>
+                        <span style="--i:95;"></span>
+                        <span style="--i:90;"></span>
+                        <span style="--i:20;"></span>
+                        <span style="--i:71;"></span>
+                        <span style="--i:91;"></span>
+           
+           
+           
+                        <span style="--i:11;"></span>
+                        <span style="--i:1;"></span>
+                        <span style="--i:114;"></span>
+                        <span style="--i:201;"></span>
+                        <span style="--i:111;"></span>
+                        <span style="--i:18;"></span>
+                        <span style="--i:14;"></span>
+                        <span style="--i:11;"></span>
+                        <span style="--i:99;"></span>
+                    </div>
+	 
+                  
+                  <div id="testdiv">
+                  <h1 id="G">Game Page</h1>
+                  <div class="section">
+                  <div class="div1">
+                  <h2 id="C">Computer's Choice</h2>  
+                  
+                  <img id="comp_imgChangerotate" src="assects\RPC.png" alt="rock paper Scissior rotate" style="display:none;">
+                  <img id="comp_imgChangestatic" src="assects\RPC.png" alt="rock paper Scissior">
+                  <img id="comp_imgChange" src="" alt="rock paper Scissior" style="display:none;">
+                  
+                  <h3 id="demo" style="display:none;">--------------</h3>   <! Computer data >
+                  <h3 id="display_demo" style="display:none;">--------------</h3>   <! display Computer data >
+                  </div>      
+                  <div class="div2">
+                  <h2 id="U">User's Choice</h2>              <! user choice using  > 
+                  <img id="user_imgChangerotate" src="assects\RPC.png" alt="rock paper Scissior rotate" style="display:none;">
+                  <img id="user_imgChangestatic" src="assects\RPC.png" alt="rock paper Scissior">
+                  <img id="user_imgChange" src="" alt="rock paper Scissior" style="display:none;">
+
+                  <h3 id="userData" style="display:none;">please choose an input</h3> <! User data >
+                  <h3 id="display_userData" style="display:none;">please choose an input</h3> <! Display User data >
+
+                  </div>
+                  </div> 
+
+                  <div class="section2">
+                  <button id="btn1" onclick="Stone()">Stone</button>
+                  <button id="btn2" onclick="paper()">Paper</button>
+                  <button id="btn3" onclick="scissor()">Scissor</button>
+                  </div>
+
+                 <div id="div3">
+                  <h4>winner from current match -></h4><h4 id="winner" style="display:none;">--------------</h4>  <! winner from current match ><h4 id="display_winner">--------------</h4>  <! display winner from current match >
+                </div>
+
+
+                <div class="section3">
+                <div id="div4">
+                  <h4>Computer point count -></h4><h4>User point -></h4>       <! computer point count  >
+                </div> 
+                <div id="div5">
+                  <h4 id="computercount">0</h4> <h4 id="usercount">0</h4>                 <! user point count>
+                  <!-- <h4 id="display_computercount" style="display:none;">0</h4> <h4 id="display_usercount" style="display:none;" >0</h4>                 <! user point count> -->
+                </div> 
+                </div>
+                    
+                 <div class="section 3h5">
+                 <h4>The Final Result</h4><h4 id="term" ></h4> <! final result after 5 matches >
+                </div>
+
+                  <div class="section4"><button id="btn" onclick="re()">Reset </button> </div><! reset button >
                   </div>	 
 </body>
 </html>
